@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tyut.mapper.PurchaseMapper">
+    <resultMap id="BaseResultMap" type="com.tyut.model.Purchase">
+        <id column="crop_id" property="cropId" />
+        <result column="crop_type" property="cropType" />
+        <result column="agent_name" property="agentName" />
+        <result column="farmer_name" property="farmerName" />
+        <result column="purchase_address" property="purchaseAddress" />
+        <result column="purchase_price" property="purchasePrice" />
+        <result column="purchase_number" property="purchaseNumber" />
+        <result column="unit" property="unit" />
+        <result column="status" property="status" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+    </resultMap>
+</mapper>
